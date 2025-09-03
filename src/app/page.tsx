@@ -6,7 +6,7 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import HowToBuy3D from '@/components/sections/layouts/howtobuy/3DHTB';
 import PatternTokenomics from '@/components/sections/layouts/tokenomics/PatternTokenomics';
 import FooterLogo from '@/components/footer/FooterLogo';
-import { Users, DollarSign, GraphRise } from 'lucide-react';
+import { Users, DollarSign } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -54,7 +54,7 @@ export default function Home() {
           kpiItems={[
             { value: '1M+', description: 'Users onboarded', icon: Users },
             { value: '$500K', description: 'Investment raised', icon: DollarSign },
-            { value: '10X', description: 'ROI over 2 years', icon: GraphRise },
+            { value: '10X', description: 'ROI over 2 years', icon: DollarSign },
           ]}
         />
       </div>
